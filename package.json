@@ -1,11 +1,11 @@
 {
-  "name": "Webpage Builder",
+  "name": "website-builder",
   "version": "1.0.0",
   "description": "[Github Code](https://github.com/vijayshukla30/grapesjs-example-html",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npm run index.js"
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
