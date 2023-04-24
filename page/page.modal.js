@@ -14,6 +14,11 @@ const Page = new mongoose.Schema(
       required: true,
     },
     content: Object,
+    type: {
+      type: String,
+      required: false,
+      default: page,
+    },
   },
   {
     timestamps: true,
