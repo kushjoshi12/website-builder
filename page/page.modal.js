@@ -17,7 +17,7 @@ const Page = new mongoose.Schema(
     type: {
       type: String,
       required: false,
-      default: page,
+      default: 'page',
     },
   },
   {
